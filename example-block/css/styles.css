@@ -1,0 +1,42 @@
+/* Global */
+
+*, ::after, ::before, :after, :before {
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+.example-color-block {
+  background-color: #fafafa;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.empty-space-1 {
+	padding-top: 100px;
+}
+
+.empty-space-2 {
+	padding-top: 300px;
+}
