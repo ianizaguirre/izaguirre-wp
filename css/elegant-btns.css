@@ -56,4 +56,63 @@
 }
 
 
+/* ====================================== Media Queries =========== */
+
+
+
+@media  (min-width: 768px)  and  (max-width: 979px) {
+
+} /* End Media Query */
+
+
+
+
+
+
+
+
+@media  (min-width:481px)  and  (max-width: 767px) {
+
+	.el-btn-container {
+		flex: 0 0 42%;
+		margin-top: 6px;
+	}
+	.el-btn-wrapper {
+		margin-top: -6px;
+	}
+
+} /* End Media Query */
+
+
+
+
+
+
+
+
+@media  (max-width: 480px) {
+
+	.el-btn-container {
+		flex: 0 0 42%;
+		margin-top: 6px;
+	}
+	.el-btn-wrapper {
+		margin-top: -6px;
+	}
+
+} /* End Media Query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
