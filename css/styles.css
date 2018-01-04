@@ -17,6 +17,22 @@ body {
 
 
 
+
+
+.example-color-block {
+  background-color: #fafafa;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+
+
+
+
 .empty-space-1 {
 	padding-top: 100px;
 }

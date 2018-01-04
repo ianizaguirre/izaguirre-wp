@@ -1,7 +1,15 @@
+.el-btn-wrapper {
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+
 .el-btn-container {
 	display: inline-block;
 
-	padding: 0 28px;
+	text-align: center;
+	flex: 0 0 21%;
 	
 	background-color: #ffffff;
 	border: 2px solid #dbdbdb;
@@ -20,12 +28,11 @@
 
 	display: inline-block;
 	line-height: 32px;
-	padding: 6px 2px;
+	padding: 6px 28px;
 
 	text-transform: capitalize;
 	white-space: nowrap;
 
-/*	margin-left: 5px;*/
 }
 
 /* Font-Awesome */
@@ -43,7 +50,10 @@
 	border-color: #3a3a3a;
 }
 
-
+.el-btn-container:active {
+	position: relative;
+	top: 1px;
+}
 
 
 
