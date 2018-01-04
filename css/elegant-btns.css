@@ -1,0 +1,31 @@
+.el-btn-box {
+	display: inline-block;
+
+	border: 2px solid #dbdbdb;
+}
+
+
+
+
+
+
+
+
+
+
+.el-btn-box a {
+	color: #494949;
+
+	font-size: 15px;
+	line-height: 32px;
+
+	padding: 7px 2px;
+
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+
+/* Font-Awesome */
+.el-btn-box .fa-size {
+	font-size: 15px;
+}

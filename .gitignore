@@ -1,4 +1,6 @@
 
 # ignoring these files
+.DS_Store
+
 
 Workflow-log.md
