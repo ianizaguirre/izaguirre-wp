@@ -9,6 +9,9 @@
     box-shadow: 0 23px 39px -20px rgba(0, 0, 0, 0.43);
     background-color: #eb474d;
 
+    padding-top: 28px;
+    padding-bottom: 28px;
+
     display: flex;
     justify-content: center;
 }
@@ -29,7 +32,13 @@ a.cta-link:hover {
     margin: 0 auto;
 }
 
-
+.cta-svg-wrapper {
+    display: flex;
+}
+.cta-bg .shape-chevron-large {
+    margin-top: -5%;
+    align-self: center;
+}
 
 
 .cta-copy {         /* --- skip the small talk */
@@ -71,6 +80,38 @@ a.cta-link:hover {
 
 
 
+
+
+/* ============ SVG Arrow  ===== */
+
+.cta-bg .shape-chevron-large {
+    background-image: url("http://izaguir.re/wp-content/uploads/2017/05/right-arrow-WHITE.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    fill: #ffffff;
+    height: 50px;
+    min-height: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 42px;
+}
+
+/* ============ Animation Effect  ===== */
+
+
+.cta-bg:hover .cta-strong {
+    transform: translateX(-10px);
+}
+.cta-bg:hover .cta-copy {
+    transform: translateX(-10px);
+}
+.cta-bg:hover .shape-chevron-large {
+    opacity: 1 !important;
+    transform: translateX(20px);
+}
+
+
 .cta-strong {
     transform: translateX(20px);
     transition: transform 0.4s ease-in-out 0s;
@@ -90,38 +131,7 @@ a.cta-link:hover {
 
 
 
-
-
-    /* --- SVG arrow */
-.cta-bg .shape-chevron-large {
-    background-image: url("http://izaguir.re/wp-content/uploads/2017/05/right-arrow-WHITE.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    fill: #ffffff;
-    height: 50px;
-    min-height: 15px;
-    position: relative;
-    vertical-align: middle;
-    width: 42px;
-}
-
-.cta-bg:hover .shape-chevron-large {
-    opacity: 1 !important;
-    transform: translateX(20px);
-}
-.cta-bg:hover .cta-copy {
-    transform: translateX(-10px);
-}
-
-.cta-bg:hover .cta-strong {
-    transform: translateX(-10px);
-}
-
-
-
 /* ============ Attached Blue Bars ===== */
-
 
 .cta-ornament-bar {
     background-color: #312757;
