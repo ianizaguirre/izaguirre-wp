@@ -190,16 +190,22 @@ a.cta-link:hover {
 .cta-strong::after {
     display: none;
 }
+.cta-bg:hover .cta-strong {
+    transform: translateX(-5px);
+}
 
 
 .cta-bg .shape-chevron-large {
     opacity: 0.5 !important;
-    height: 45px;
+    height: 33px;
+}
+.cta-bg:hover .shape-chevron-large {
+    transform: translateX(12px);
 }
 
 
 .cta-ornament-bar {
-    max-width: 90%;
+    max-width: 67%;
     padding: 12px;
 }
 
