@@ -140,9 +140,11 @@ a.cta-link:hover {
 
 .cta-ornament-bar {
     background-color: #312757;
-    max-width: 910px;
     margin: 0 auto;
     padding: 18px;
+
+    max-width: 80%;
+    width: 910px;
 }
 
 
@@ -151,10 +153,12 @@ a.cta-link:hover {
 
 
 
+/* ====================================== Media Queries =========== */
 
 
+@media  (min-width: 768px)  and  (max-width: 979px) {
 
-
+} /* End Media Query */
 
 
 
@@ -182,7 +186,7 @@ a.cta-link:hover {
 }
 
 .cta-strong {
-    font-size: 37px;
+    font-size: 38px;
     padding-top: 0px;
     padding-right: 35px;
 }
@@ -205,7 +209,7 @@ a.cta-link:hover {
 
 
 .cta-ornament-bar {
-    max-width: 67%;
+    max-width: 66%;
     padding: 12px;
 }
 
@@ -216,6 +220,59 @@ a.cta-link:hover {
 
 
 
+@media  (max-width: 480px) {
+
+.cta-bg {
+    display: block;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.cta-content-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-copy {
+    display: none;
+}
+
+.cta-svg-wrapper {
+    display: block;
+}
+
+.cta-strong {
+    font-size: 30px;
+    padding-top: 0px;
+    padding-right: 27px;
+}
+
+.cta-strong::after {
+    display: none;
+}
+.cta-bg:hover .cta-strong {
+    transform: translateX(6px);
+}
+
+
+.cta-bg .shape-chevron-large {
+    opacity: 0.5 !important;
+    height: 27px;
+}
+.cta-bg:hover .shape-chevron-large {
+    transform: translateX(12px);
+}
+
+
+.cta-ornament-bar {
+    max-width: 73%;
+    padding: 10px;
+}
+
+
+} /* End Media Query */
 
 
 
