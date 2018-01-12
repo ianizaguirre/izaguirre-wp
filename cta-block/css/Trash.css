@@ -8,16 +8,17 @@ jQuery(function($) {
 
 
 
-/*==============
+			/*==============
 
-   Section 3.1
+   			 Section 3.1
 
-================*/
+			================*/
 
-.cta-bg {
-    box-shadow: 0 23px 39px -20px rgba(0, 0, 0, 0.43);
-    background-color: #eb474d;
-    text-align: center;
+.cta-copy a {
+    color: #fff;
+}
+.cta-copy a:hover {
+    color: #fff;
 }
 
 a.cta-link {
@@ -27,7 +28,11 @@ a.cta-link:hover {
     border: none !important;
 }
 
-.cta-copy {         /* --- skip the small talk */
+.cta-bg{
+    box-shadow: 0 23px 39px -20px rgba(0, 0, 0, 0.43);
+}
+	  /* --- skip the small talk */
+.cta-copy {
     color: #fff;
     display: inline-block;
     font-size: 18px;
@@ -38,8 +43,8 @@ a.cta-link:hover {
     vertical-align: middle;
 }
 
-       
-.cta-copy::after {     /* --- border white line */
+       /* --- border white line */
+.cta-copy::after {
     background-color: #fff;
     content: "";
     height: 1px;
@@ -49,16 +54,8 @@ a.cta-link:hover {
     width: 100%;
 }
 
-
-.cta-copy a {
-    color: #fff;
-}
-.cta-copy a:hover {
-    color: #fff;
-}
-
-
-.cta-strong {   /* --- Lets Chat */
+     /* --- Lets Chat */
+.cta-strong {
     display: inline-block;
     font-weight: 700;
     font-family: "skolar-latin",serif;
@@ -82,9 +79,12 @@ a.cta-link:hover {
     transition: all 0.4s ease-in-out 0s;
 }
 
-
-
-
+.cta-top-bar {
+    padding-top: 140px !important;
+}
+.cta-bottom-bar {
+    padding-bottom: 140px !important;
+}
 
     /* --- SVG arrow */
 .cta-bg .shape-chevron-large {
@@ -110,58 +110,99 @@ a.cta-link:hover {
 
 
 
-/* ============ Attached Blue Bars ===== */
+
+/*==============
+
+		 Section M
+
+================*/
+			/*==============
+
+   			 Section M.1
+
+			================*/
 
 
-.cta-ornament-bar {
-    background-color: #312757;
-    max-width: 910px;
-    margin: 0 auto;
-    padding: 18px;
+/* ----- LETS CHAT ----- */
+
+.cta-strong {
+    font-size: 82px;
+}
+
+.cta-bg .shape-chevron-large {
+    width: 37px;
+}
+
+
+
+			/*==============
+
+   			 Section M.2
+
+			================*/
+
+/* ----- LETS CHAT ----- */
+
+.cta-copy {
+    font-size: 17px;
+}
+.cta-copy::after {
+    top: 36px;
+}
+.cta-strong {
+    font-size: 71px;
+    padding-top: 15px;
+}
+
+.cta-bg .shape-chevron-large {
+    width: 30px;
+}
+
+.cta-top-bar {
+    padding-top: 130px !important;
+}
+.cta-bottom-bar {
+    padding-bottom: 130px !important;
 }
 
 
 
 
 
-/* ====================================== Media Queries =========== */
+			/*==============
+
+   			 Section M.3
+
+			================*/
 
 
+/* ----- LETS CHAT ----- */
 
-@media  (min-width: 768px)  and  (max-width: 979px) {
+.cta-copy {
+    font-size: 16px;
+    margin-right: 27px;
+}
 
-} /* End Media Query */
+.cta-copy::after {
+    top: 34px;
+}
 
+.cta-strong {
+    font-size: 42px;
+    padding-top: 13px;
+}
 
+.cta-bg .shape-chevron-large {
+    height: 36px;
+    width: 30px;
+}
 
-
-
-
-
-
-@media  (min-width:481px)  and  (max-width: 767px) {
-
-
-
-} /* End Media Query */
-
-
-
-
-
-
-
-
-@media  (max-width: 480px) {
-
-
-
-} /* End Media Query */
-
-
-
-
-
+.cta-top-bar {
+    padding-top: 120px !important;
+}
+.cta-bottom-bar {
+    padding-bottom: 120px !important;
+}
 
 
 
@@ -172,3 +213,21 @@ a.cta-link:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
