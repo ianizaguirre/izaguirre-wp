@@ -1,0 +1,148 @@
+/*         Directory
+
+Section 1 = Homepage Grid
+
+Section 2 = Projects Showcase Grid
+	section 2.1 = The Grid Plugin Filter Bar
+
+Section 3 = Inside A Project Page Grid
+
+Section 4 = Blog Roll Archieve
+
+*/
+
+/*==============
+
+    Section 1
+
+================*/
+
+/*==============
+
+    Section 2
+
+================*/
+
+/*==============
+    Section 2.1
+================*/
+.tg-nav-font {
+	font-size: 18px !important;
+	font-weight: 500 !important;
+	font-family: 'proxima-nova', sans-serif !important;
+}
+
+.tg-filter::after {
+	content: '/';
+}
+.tg-filter:last-child::after {
+	content: '';
+}
+
+.tg-filter-name {
+	padding: 0 10px;
+}
+
+/*==============
+
+    Section 3
+
+================*/
+
+/*==============
+
+    Section 4
+
+================*/
+
+/* ----------
+--- The Grid is present on your page but the main container of 
+--- your page have a height of 0 and all content inside it is hidden 
+---------- */
+
+#x-iso-container {
+	height: auto !important;
+}
+.entry-title {
+	color: #777;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+/* ====================================== Media Queries =========== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	/*==============
+
+	    Section 4
+
+	================*/
+	.tg-maren-smashing .tg-element-3 {
+		font-size: 28px !important;
+		line-height: 1.178 !important;
+	}
+	.tg-maren-smashing .tg-element-5 {
+		font-size: 18px !important;
+	}
+	.tg-maren-smashing .tg-element-1 {
+		font-size: 15px !important;
+		padding: 11px !important;
+	}
+} /* ================================== */ /* End Media 1 */
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/*==============
+
+	    Section 4
+
+	================*/
+	.tg-maren-smashing .tg-element-3 {
+		font-size: 28px !important;
+		line-height: 1.178 !important;
+	}
+	.tg-maren-smashing .tg-element-5 {
+		font-size: 18px !important;
+	}
+	.tg-maren-smashing .tg-element-1 {
+		font-size: 15px !important;
+		padding: 11px !important;
+	}
+} /* ================================== */ /* End Media 2 */
+
+@media (max-width: 480px) {
+	/*==============
+
+	    Section 1
+
+	================*/
+	/* ----- Hover Right Arrow icon ----- */
+
+	.tg-article-color-block .tg-element-4 {
+		padding: 27px 23px 0 !important;
+	}
+
+	.tg-case-study-star .tg-element-1 {
+		padding: 44px 23px 0 !important;
+	}
+
+	/*==============
+
+	    Section 4
+
+	================*/
+
+	.tg-maren-smashing .tg-element-3 {
+		font-size: 28px !important;
+		line-height: 1.178 !important;
+	}
+	.tg-maren-smashing .tg-element-5 {
+		font-size: 18px !important;
+	}
+	.tg-maren-smashing .tg-element-1 {
+		font-size: 15px !important;
+		padding: 11px !important;
+	}
+} /* ================================== */ /* End Media 3 */
