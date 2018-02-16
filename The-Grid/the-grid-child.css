@@ -63,14 +63,6 @@ Section 4 = Blog Roll Archieve
 #x-iso-container {
 	height: auto !important;
 }
-.entry-title {
-	color: #777;
-	line-height: 1;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 20px;
-	text-transform: uppercase;
-}
 
 /* ====================================== Media Queries =========== */
 
@@ -89,11 +81,37 @@ Section 4 = Blog Roll Archieve
 	}
 	.tg-maren-smashing .tg-element-1 {
 		font-size: 15px !important;
-		padding: 11px !important;
 	}
 } /* ================================== */ /* End Media 1 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+	/*==============
+
+	    Section 1
+
+	================*/
+	/* --- the word "Case Study" --- */
+	.tg-case-study-star .tg-element-2,
+	.tg-case-study-star .tg-element-4 {
+		font-size: 26px !important;
+		line-height: 30px !important;
+	}
+	/* --- the box of P under "Case Study" --- */
+	.tg-case-study-star .tg-element-3 {
+		padding: 19px !important;
+		line-height: 16px !important;
+	}
+
+	/* --- the word "Article" --- */
+	.tg-article-color-block .tg-element-2 {
+		font-size: 14px !important;
+		line-height: 17px !important;
+	}
+	/* --- title --- */
+	.tg-article-color-block .tg-element-1 {
+		font-size: 14px !important;
+		line-height: 17px !important;
+	}
 	/*==============
 
 	    Section 4
@@ -108,7 +126,6 @@ Section 4 = Blog Roll Archieve
 	}
 	.tg-maren-smashing .tg-element-1 {
 		font-size: 15px !important;
-		padding: 11px !important;
 	}
 } /* ================================== */ /* End Media 2 */
 
@@ -128,6 +145,29 @@ Section 4 = Blog Roll Archieve
 		padding: 44px 23px 0 !important;
 	}
 
+	/* --- the word "Case Study" --- */
+	.tg-case-study-star .tg-element-2,
+	.tg-case-study-star .tg-element-4 {
+		font-size: 26px !important;
+		line-height: 30px !important;
+	}
+	/* --- the box of P under "Case Study" --- */
+	.tg-case-study-star .tg-element-3 {
+		padding: 17px !important;
+		line-height: 14px !important;
+	}
+
+	/* --- the word "Article" --- */
+	.tg-article-color-block .tg-element-2 {
+		font-size: 14px !important;
+		line-height: 17px !important;
+	}
+	/* --- title --- */
+	.tg-article-color-block .tg-element-1 {
+		font-size: 14px !important;
+		line-height: 17px !important;
+	}
+
 	/*==============
 
 	    Section 4
@@ -143,6 +183,5 @@ Section 4 = Blog Roll Archieve
 	}
 	.tg-maren-smashing .tg-element-1 {
 		font-size: 15px !important;
-		padding: 11px !important;
 	}
 } /* ================================== */ /* End Media 3 */
