@@ -1,7 +1,11 @@
 /* Global */
 
-*, ::after, ::before, :after, :before {
-    box-sizing: border-box;
+*,
+::after,
+::before,
+:after,
+:before {
+	box-sizing: border-box;
 }
 
 a {
@@ -14,24 +18,19 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
-
-
-.example-color-block {
-  background-color: #fafafa;
-
-  padding-top: 60px;
-  padding-bottom: 60px;
-
-  max-width: 910px;
-  margin: 0 auto;
+ul {
+	padding: 0;
 }
 
+.example-color-block {
+	background-color: #fafafa;
 
+	padding-top: 60px;
+	padding-bottom: 60px;
 
-
+	max-width: 910px;
+	margin: 0 auto;
+}
 
 .empty-space-1 {
 	padding-top: 100px;
