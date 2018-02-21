@@ -62,6 +62,8 @@ Section 4 = Blog Roll Archieve
 
 #x-iso-container {
 	height: auto !important;
+	margin: 0 auto;
+	max-width: 910px; /* ---- Max width of blog stream page */
 }
 
 /* ====================================== Media Queries =========== */

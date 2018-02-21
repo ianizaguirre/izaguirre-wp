@@ -1,0 +1,77 @@
+/*         Directory
+
+Section 1 = 
+
+Section 2 = 
+	section 2.1 = 
+
+Section 3 = 
+
+Section 4 = 
+
+*/
+
+/*==============
+
+    Section 1
+
+================*/
+
+.single .hentry .entry-wrap,
+.single .comments-area {
+	max-width: 910px;
+	margin: 0 auto;
+}
+?????
+https://theme.co/apex/forum/t/how-to-set-max-width-to-blog-post/23035
+
+
+https://theme.co/apex/forum/t/how-to-create-a-custom-template-page-on-x-theme/22833/2
+
+** https://theme.co/apex/forum/t/last-updated-date-in-serps-double-h1-in-single-post/1890 
+
+/*==============
+
+    Section 2
+
+================*/
+
+/*==============
+
+    Section 3
+
+================*/
+
+/*==============
+
+    Section 4
+
+================*/
+
+/* ====================================== Media Queries =========== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+	/*==============
+
+	    Section 4
+
+	================*/
+} /* ================================== */ /* End Media 1 */
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/*==============
+
+	    Section 1
+
+	================*/
+} /* ================================== */ /* End Media 2 */
+
+@media (max-width: 480px) {
+	/*==============
+
+	    Section 1
+
+	================*/
+
+	/* --- the word "Article" --- */
+} /* ================================== */ /* End Media 3 */

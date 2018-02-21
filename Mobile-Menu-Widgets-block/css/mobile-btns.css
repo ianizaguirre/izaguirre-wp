@@ -1,0 +1,65 @@
+.mobile-btn-wrapper {
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	display: block;
+	width: 275px;
+	text-align: center;
+	box-sizing: content-box;
+}
+/* ------------------------------ */
+
+.mobile-btn-wrapper li {
+	list-style: none;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+}
+.mobile-btn-wrapper li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	vertical-align: top;
+	-webkit-transition: none;
+	transition: none;
+}
+/* ------------------------------ */
+.mobile-btn-wrapper a:after,
+.mobile-btn-wrapper a:before {
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: transform 0.15s cubic-bezier(0.215, 0.061, 0.355, 1);
+	transition: transform 0.15s cubic-bezier(0.215, 0.061, 0.355, 1);
+}
+
+.mobile-btn-icon-linkedin a:before {
+	content: '\f0e1';
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: transform 0.15s cubic-bezier(0.215, 0.061, 0.355, 1);
+	transition: transform 0.15s cubic-bezier(0.215, 0.061, 0.355, 1);
+}
+/* ====== Icon ====== */
+.mobile-btn-icon-linkedin a {
+	font-family: FontAwesome;
+}
+.mobile-btn-icon-linkedin a:after {
+	background: #0077b5;
+}
+/* ------------------------------ */
+.mobile-btn-wrapper a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 45px;
+	background: #3b5998;
+	transform: scale(0, 0);
+}
+.mobile-btn-wrapper li:hover a:after {
+	transform: scale(1, 1);
+}
+
