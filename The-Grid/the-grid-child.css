@@ -8,6 +8,7 @@ Section 2 = Projects Showcase Grid
 Section 3 = Inside A Project Page Grid
 
 Section 4 = Blog Roll Archieve
+	section 4.1 = The Grid Plugin Search Bar
 
 */
 
@@ -63,7 +64,48 @@ Section 4 = Blog Roll Archieve
 #x-iso-container {
 	height: auto !important;
 	margin: 0 auto;
-	max-width: 910px; /* ---- Max width of blog stream page */
+	max-width: 910px;
+}
+
+/*==============
+    Section 4.1
+================*/
+
+/* --- This makes the Search Bar and its inner input full width --- */
+.tg-search-holder {
+	width: 100% !important;
+}
+.tg-search-inner {
+	display: flex !important;
+}
+.tg-search {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+/* ---------------------- */
+
+.tg-nav-under .tg-search-icon:before {
+	content: '\e62e';
+	font-size: 27px !important;
+	font-weight: 500 !important;
+	opacity: 0.8;
+	color: #2b2b2b;
+}
+input[type='text'].tg-search {
+	padding: 0 10px 0 10px !important;
+}
+
+input.tg-search.tg-nav-color.tg-nav-font::placeholder {
+	opacity: 0.5;
+	font-size: 22px !important;
+	font-weight: 300 !important;
+	text-transform: capitalize !important;
+}
+input.tg-search.tg-nav-color.tg-nav-font {
+	opacity: 1;
+	font-size: 22px !important;
+	font-weight: 300 !important;
+	text-transform: none !important;
 }
 
 /* ====================================== Media Queries =========== */
